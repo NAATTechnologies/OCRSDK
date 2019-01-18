@@ -1,0 +1,11 @@
+framework module OCRSDK {
+  umbrella header "OCRSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module OCRSDK.Swift {
+    header "OCRSDK-Swift.h"
+    requires objc
+}
