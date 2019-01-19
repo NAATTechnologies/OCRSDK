@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.author        = { "Roberto Carrera" => "rcarrera@na-at.com.mx" }
   spec.source        = { :git => "https://github.com/NAATTechnologies/OCRSDK.git", :tag => "#{spec.version}" }
   spec.vendored_framework = 'OCRSDK.Framework'
-  spec.platform = :ios, '9.0'
+  spec.platform = :ios, '10.0'
   
   spec.exclude_files = "Classes/Exclude"
   spec.ios.frameworks = 'UIKit'
